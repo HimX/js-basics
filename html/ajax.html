@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>AJAX</h1>
+
+        <nav>
+            <a href="../index.html" title="JavaScript">JavaScript</a>
+            <a href="./ajax.html" class="active">AJAX</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Main content -->
+        <main class="main">
+            <form action="" method="post">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="current-url">URL actual</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="url" name="current-url" id="current-url">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <button class="success" id="show-content-button" type="button">Mostrar contenido</button>
+                    </div>
+                    <div class="col-75">
+                        <p id="show-content-result">Contenido</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Estado de la petición</label>
+                    </div>
+                    <div class="col-75">
+                        <p id="show-state-result">⚪ No iniciada</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Cabeceras HTTP</label>
+                    </div>
+                    <div class="col-75">
+                        <ul id="show-headers-result"></ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="">Código y texto de la respuesta</label>
+                    </div>
+                    <div class="col-75">
+                        <p id="show-code-and-status-result"></p>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="side"></aside>
+    </div>
+
+    <footer>
+        <p>
+            Hecho con ❤️ por <a href="mailto:fe.gomez.corter@gmail.com">Emanuel Gómez Cortés</a>
+        </p>
+    </footer>
+    <script src="../js/ajax.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>JavaScript</h1>
+
+        <nav>
+            <a href="./index.html" title="JavaScript" class="active">JavaScript</a>
+            <a href="./html/ajax.html">AJAX</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Main content -->
+        <main class="main">
+            <form action="" method="post">
+                <!-- Palíndromos -->
+                <div class="row">
+                    <h2>¿Es palíndromo?</h2>
+
+                    <div class="col-25">
+                        <label for="palindrome">Escribe una frase y te diré si es un palíndromo</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="palindrome" id="palindrome" placeholder="Anita lava la tina">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <button class="success" id="is-palindrome-button" type="button">¿Es palíndromo?</button>
+                    </div>
+                    <div class="col-75">
+                        <p id="is-palindrome-result"></p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- El mayor de dos números -->
+                <div class="row">
+                    <h2>El mayor de dos números</h2>
+
+                    <div class="col-25">
+                        <label for="first-number">El primer número</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" name="first-number" id="first-number">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="second-number">El segundo número</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" name="second-number" id="second-number">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <button class="success" id="greater-number-button" type="button">¿Cuál es mayor?</button>
+                    </div>
+                    <div class="col-75">
+                        <p id="greater-number-result"></p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Vocales en una frase -->
+                <div class="row">
+                    <h2>Vocales en una frase</h2>
+
+                    <div class="col-25">
+                        <label for="phrase1">Escribe una frase y te diré qué vocales aparecen en ella</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="phrase1" id="phrase1"
+                            placeholder="Poquito a poquito Paquito empaca poquitas copitas en pocos paquetes.">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <button class="success" id="vowels-in-phrase-button" type="button">¿Qué vocales
+                            aparecen?</button>
+                    </div>
+                    <div class="col-75">
+                        <p id="vowels-in-phrase-result"></p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Contador de vocales -->
+                <div class="row">
+                    <h2>Contador de vocales</h2>
+
+                    <div class="col-25">
+                        <label for="phrase2">Escribe una frase y te diré cuántas veces está cada vocal en ella</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="phrase2" id="phrase2"
+                            placeholder="Pepe puso un peso en el piso del pozo. En el piso del pozo Pepe puso un peso.">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <button class="success" id="voewls-count-button" type="button">Cuenta la vocales</button>
+                    </div>
+                    <div class="col-75">
+                        <p id="voewls-count-result"></p>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="side"></aside>
+    </div>
+
+    <footer>
+        <p>
+            Hecho con ❤️ por <a href="mailto:fe.gomez.corter@gmail.com">Emanuel Gómez Cortés</a>
+        </p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
